@@ -294,13 +294,12 @@ body {
   width: 1600px;
   height: 252px;
 }
-.address p {
+.marka-foot p {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   color: #ffffff;
-  margin-left: 215px;
 }
 .logo-two {
   margin-left: 215px;
