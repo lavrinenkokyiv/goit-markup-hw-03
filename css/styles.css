@@ -1,7 +1,23 @@
-body {
-  font-family: roboto;
-  color: #212121;
+:root {
+  --general-text: #212121;
+  --second-text: #ffffff;
+  --blue-text: #2196f3;
+  --grey-text: #757575;
+  --nav-grey-text: rgba(255, 255, 255, 0.6);
+  --background-dark: #2f303a;
+  --background-white: #f5f4fa;
+  --background-button: #188ce8;
+  --background-body: #ffffff;
 }
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--general-text);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  background-color: var(--background-body);
+}
+
 .html {
   box-sizing: border-box;
 }
@@ -27,20 +43,18 @@ body {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
-  color: #212121;
+  line-height: 1.2;
+  color: var(--general-text);
   text-decoration: none;
-  letter-spacing: 0.03em;
 }
 .web {
   display: flex;
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
-  color: #2196f3;
+  line-height: 1.2;
+  color: var(--blue-text);
   text-decoration: none;
-  letter-spacing: 0.03em;
 }
 .buttonsfive {
   list-style-type: none;
@@ -132,11 +146,9 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  color: #2196f3;
+  line-height: 1.1;
+  color: var(--blue-text);
   text-decoration: none;
-  letter-spacing: 0.03em;
 }
 .nav-site {
   display: flex;
@@ -146,10 +158,9 @@ body {
   padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  color: #212121;
+  line-height: 1.1;
+  color: var(--general-text);
   text-decoration: none;
-  letter-spacing: 0.03em;
 }
 
 .marka .item + .item {
@@ -157,7 +168,7 @@ body {
 }
 .nav-site:hover,
 .nav-site:focus {
-  color: #2196f3;
+  color: var(--blue-text);
 }
 .nav-adm {
   display: flex;
@@ -165,33 +176,28 @@ body {
   justify-content: center;
   margin-top: 32px;
   margin-bottom: 32px;
-  color: rgba(117, 117, 117, 1);
+  color: var(--grey-text);
   font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   text-decoration: none;
-  letter-spacing: 0.03em;
-  font-style: normal;
 }
 .nav-adm:hover,
 .nav-adm:focus {
-  color: #2196f3;
+  color: var(--blue-text);
 }
 .nav-adm-two {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--nav-grey-text);
   font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   text-decoration: none;
-  letter-spacing: 0.03em;
   font-style: normal;
 }
 .nav-adm-two:hover,
 .nav-adm-two:focus {
-  color: #2196f3;
+  color: var(--blue-text);
 }
 .section {
-  background: #2f303a;
+  background: var(--background-dark);
   width: 1600px;
   height: 600px;
   margin: auto;
@@ -210,16 +216,16 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--second-text);
 }
 .section-button:hover,
 .section-button:focus {
-  background: #188ce8;
+  background: var(--background-button);
 }
 .section-button {
   width: 200px;
   height: 50px;
-  background: #2196f3;
+  background: var(--blue-text);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
@@ -230,23 +236,19 @@ body {
 .butt {
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
-  color: #ffffff;
+  line-height: 1.9;
+  color: var(--second-text);
   letter-spacing: 0.06em;
 }
 .special h3 {
   font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  color: #212121;
-  letter-spacing: 0.03em;
+  line-height: 1.1;
+  color: var(--general-text);
   text-transform: uppercase;
 }
 .special p {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  color: #757575;
+  line-height: 1.7;
+  color: var(--grey-text);
 }
 .workday h2 {
   margin-top: 0px;
@@ -255,12 +257,12 @@ body {
   text-align: center;
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
-  color: #212121;
+  line-height: 1.1;
+  color: var(--general-text);
 }
 .teamwork {
   list-style: none;
-  background: #f5f4fa;
+  background: var(--background-white);
 }
 .teamwork h2 {
   margin-top: 0px;
@@ -269,26 +271,26 @@ body {
   text-align: center;
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
-  color: #212121;
+  line-height: 1.1;
+  color: var(--general-text);
 }
 .teamwork h3 {
   text-align: center;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
-  color: #212121;
+  line-height: 1.2;
+  color: var(--general-text);
 }
 .teamwork p {
   text-align: center;
   font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
-  color: #757575;
+  line-height: 1.2;
+  color: var(--grey-text);
 }
 
 .footer {
-  background: #2f303a;
+  background: var(--background-dark);
   margin: auto;
   padding: auto;
   width: 1600px;
@@ -298,8 +300,8 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
-  color: #ffffff;
+  line-height: 1.7;
+  color: var(--second-text);
 }
 .logo-two {
   margin-left: 215px;
@@ -309,18 +311,16 @@ body {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
-  color: #ffffff;
+  line-height: 1.2;
+  color: var(--second-text);
   text-decoration: none;
-  letter-spacing: 0.03em;
 }
 .web-two {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
-  color: #2196f3;
-  letter-spacing: 0.03em;
+  line-height: 1.2;
+  color: var(--blue-text);
   text-decoration: none;
 }
 .buttonsfive .button-marg + .button-marg {
@@ -334,12 +334,12 @@ body {
 .button-app,
 .button-design,
 .button-market {
-  background: #f5f4fa;
+  background: var(--background-white);
   border-radius: 4px;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.6;
 }
 .button-all:hover,
 .button-site:hover,
@@ -351,18 +351,18 @@ body {
 .button-app:focus,
 .button-design:focus,
 .button-market:focus {
-  background: #2196f3;
+  background: var(--blue-text);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-  color: #ffffff;
+  color: var(--second-text);
 }
 .button-all {
-  background: #2196f3;
+  background: var(--blue-text);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-  color: #ffffff;
+  color: var(--second-text);
 }
 .site-photo .item {
   padding: 0px;
@@ -392,17 +392,16 @@ body {
 .site-photo h3 {
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
-  color: #212121;
+  line-height: 2;
+  color: var(--general-text);
   margin-top: 20px;
   margin-bottom: 4px;
   margin-left: 24px;
 }
 .site-photo p {
-  font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
-  color: #757575;
+  line-height: 1.9;
+  color: var(--grey-text);
   margin-bottom: 20px;
   margin-top: 0px;
   margin-left: 24px;
