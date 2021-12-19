@@ -342,6 +342,26 @@ body {
 .buttonsfive .button-marg {
   margin-bottom: 50px;
 }
+.button-all {
+  width: 73px;
+  height: 38px;
+}
+.button-site {
+  width: 128px;
+  height: 38px;
+}
+.button-app {
+  width: 145px;
+  height: 38px;
+}
+.button-design {
+  width: 103px;
+  height: 38px;
+}
+.button-market {
+  width: 130px;
+  height: 38px;
+}
 .button-all,
 .button-site,
 .button-app,
@@ -353,6 +373,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
+  border: none;
 }
 .button-all:hover,
 .button-site:hover,
@@ -385,6 +406,7 @@ body {
 }
 .site-photo .item:nth-child(1n) {
   margin-left: 30px;
+  margin-bottom: 30px;
 }
 .section-main h1 {
   display: none;
@@ -402,7 +424,7 @@ body {
   margin: 0px;
   margin-left: -15px;
   margin-right: -15px;
-  padding-bottom: 94px;
+  padding-bottom: 64px;
 }
 .site-photo h2 {
   font-weight: bold;
