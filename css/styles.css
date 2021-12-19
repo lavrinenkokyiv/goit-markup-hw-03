@@ -68,14 +68,27 @@ body {
 .marka .item + .item {
   margin-left: 30px;
 }
-.marka h3 {
+.marka h2 {
   padding-top: 94px;
   margin-top: 0px;
   margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.1;
+  text-transform: uppercase;
 }
 .marka p {
   margin-top: 0px;
   margin-bottom: 0px;
+  line-height: 1.7;
+  color: #757575;
+}
+.markas {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
 }
 .marka {
   list-style-type: none;
@@ -163,7 +176,7 @@ body {
   text-decoration: none;
 }
 
-.marka .item + .item {
+.markas .item + .item {
   margin-left: 50px;
 }
 .nav-site:hover,
@@ -373,7 +386,9 @@ body {
 .site-photo .item:nth-child(1n) {
   margin-left: 30px;
 }
-
+.section-main h1 {
+  display: none;
+}
 .site-photo a {
   text-decoration: none;
   margin: 0px;
@@ -389,7 +404,7 @@ body {
   margin-right: -15px;
   padding-bottom: 94px;
 }
-.site-photo h3 {
+.site-photo h2 {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
