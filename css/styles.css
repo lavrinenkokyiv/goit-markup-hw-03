@@ -99,7 +99,7 @@ nav {
   margin-top: 0px;
   margin-bottom: 0px;
   line-height: 1.7;
-  color: #757575;
+  color: var(--grey-text);
 }
 .navmain {
   display: flex;
